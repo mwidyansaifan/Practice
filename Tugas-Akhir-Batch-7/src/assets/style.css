@@ -1,0 +1,137 @@
+/* Font Popins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Universal */
+
+
+
+body{
+
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    margin: 0px;
+
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+
+    background-color: wheat;
+
+    border-radius: 25px;
+    border-width: 1px;
+    border-color: black;
+
+}
+
+.navbar{
+    display: flex; width: 100vw;
+    justify-content: space-around;
+    
+}
+
+/* Dashboard */
+.header{
+    width: 100vw; background-color: #BABABA;
+}
+
+.background{
+    display: flex;
+
+    width: 650px;
+    height: 750px;
+
+    background-color: rgba(222, 222, 222, 1);
+    border-radius: 25px;
+}
+
+
+/* Signup and Login */
+.window{
+    display: flex;
+    flex-flow: column;
+    width: 100%; height: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#signup_icon{
+    display: flex;
+    align-self: center;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    margin-top: 2%;
+
+    background: #C7C7C7;
+}
+
+.fields{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 500px;
+    height: 40px;
+    margin: 2%;
+
+    text-indent: 5%;
+
+    background-color: whitesmoke;
+
+    border-radius: 25px;
+
+}
+
+.image_fields{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 500px;
+    height: 275px;
+    margin: 2%;
+
+    text-indent: 5%;
+
+    background-color: whitesmoke;
+
+    border-radius: 25px;
+
+}
+
+.pfp_fields{
+    display: flex;
+    width: 275px;
+    height: 275px;
+    margin: 2%;
+
+    text-indent: 5%;
+
+    background-color: whitesmoke;
+
+    border-radius: 25px;
+
+}
+
+#title{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    margin-bottom: 5%;
+}
+
+#text{
+
+    align-self: center;
+    vertical-align:middle;
+
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+input:focus::placeholder {
+    color: transparent;
+  }
